@@ -20,7 +20,7 @@ mkdir $HOME/Sites
 mkdir $HOME/Desktop/Screenshots
 
 # Clone Github repositories
-./clone.sh
+bash ./clone.sh
 
 # Removes .zshrc from $HOME (if it exists) and symlinks the .zshrc file from the .dotfiles
 rm -rf $HOME/.zshrc
